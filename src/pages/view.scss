@@ -9,5 +9,6 @@
   height: 100%;
   @include maxQ(992px) {
     width: 100%;
+    overflow-x: hidden;
   }
 }

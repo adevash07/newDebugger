@@ -64,6 +64,14 @@
     flex: 1;
     margin-bottom: 4rem;
 
+    @include maxQ(460px) {
+      margin-top: 6rem;
+    }
+
+    @include maxQ(395px) {
+      margin-top: 8rem;
+    }
+
     &__header {
       text-align: center;
     }
