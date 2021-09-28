@@ -3,6 +3,9 @@
   background-color: black;
   color: white;
   height: fit-content;
+  @include maxQ(699px) {
+    height: 165rem;
+  }
   &__con {
     height: fit-content;
     width: 92%;
@@ -18,7 +21,8 @@
     font-size: 3rem;
   }
   &__grid {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     @include minQ(1024px) {
       grid-template-rows: 1fr 1fr;
     }
@@ -29,9 +33,12 @@
       gap: 2rem;
       max-height: 20rem;
 
+      @include maxQ(747px) {
+        flex-direction: column;
+      }
+
       &.gads {
-        margin-top: -6rem;
-        margin-bottom: 6rem;
+        margin-top: 4rem;
         max-height: fit-content;
       }
       p {
@@ -69,6 +76,9 @@
 
   &__duties {
     flex: 1;
+    @include maxQ(809px) {
+      flex: unset;
+    }
   }
   &__flex {
     display: flex;
@@ -76,6 +86,9 @@
     gap: 3rem;
     margin-bottom: 4rem;
     margin-top: 2rem;
+    @include maxQ(699px) {
+      flex-direction: column;
+    }
   }
 
   &__skills {

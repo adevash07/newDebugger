@@ -81,6 +81,20 @@
         left: -10%;
       }
 
+      @include maxQ(749px) {
+        left: -20%;
+      }
+
+      @include maxQ(550px) {
+        left: -27%;
+      }
+      @include maxQ(459px) {
+        left: -31%;
+      }
+      @include maxQ(426px) {
+        left: -36%;
+      }
+
       &:hover {
         animation: fizzle 0.5s ease-out 2;
       }
@@ -153,6 +167,9 @@
       gap: 2rem;
       font-weight: 600;
       color: white;
+      @include maxQ(533px) {
+        font-size: 0.7rem;
+      }
     }
     .intro__about {
       margin-top: 2rem;
@@ -197,6 +214,7 @@
     @include maxQ(992px) {
       background-color: white;
       z-index: 2;
+      top: 0;
     }
     .toggler {
       width: 2rem;
@@ -204,7 +222,7 @@
       height: 12px;
       border-radius: 2px;
       @include maxQ(992px) {
-        background-color: $base;
+        background-color: hsl(2, 100%, 70%);
       }
       box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
         rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
@@ -253,6 +271,12 @@
     }
     @include maxQ(992px) {
       margin-left: -20%;
+    }
+    @include maxQ(799px) {
+      margin-left: 0;
+    }
+    @include maxQ(631px) {
+      min-width: unset;
     }
     img {
       height: 100%;
@@ -326,6 +350,7 @@
       left: 0;
       top: 70%;
       margin-left: 2rem;
+      z-index: 3;
     }
     &__list {
       filter: blur(1px);
