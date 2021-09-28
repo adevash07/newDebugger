@@ -1,0 +1,84 @@
+@use "./mixins" as *;
+
+.container--wide {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 2000px;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1280px;
+}
+
+.header1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: "Inconsolata", monospace;
+
+  @include minQ(992px) {
+    font-size: 2.5rem;
+  }
+  @include minQ(1400px) {
+    font-size: 3rem;
+  }
+}
+
+.header2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: "Inconsolata", monospace;
+
+  @include minQ(768px) {
+    font-size: 2rem;
+  }
+}
+
+.header3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: "Inconsolata", monospace;
+
+  @include minQ(768px) {
+    font-size: 1.3rem;
+  }
+}
+
+.header4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: "Inconsolata", monospace;
+
+  @include maxQ(1083px) {
+    font-size: 1rem;
+  }
+
+  @include minQ(1083px) {
+    font-size: 1.1rem;
+  }
+}
+
+.header5 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.normal {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  @include minQ(768px) {
+    font-size: 1rem;
+  }
+}
+
+.small {
+  font-size: 0.8rem;
+  font-weight: 300;
+}

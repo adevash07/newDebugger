@@ -1,0 +1,23 @@
+@use "../../style/index.scss" as *;
+.contact {
+  background-color: black;
+  .dot {
+    color: $base;
+  }
+  &__con {
+    width: 92%;
+    margin: 0 auto;
+    padding: 6rem 0 8rem 0;
+    height: 20rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__mailto {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: $base;
+    text-decoration: underline;
+  }
+}

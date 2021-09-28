@@ -1,0 +1,26 @@
+$base: hsl(2, 100%, 65%);
+$colors: (
+  Primary: (
+    base: #b468ff,
+    sharp: #ab57ff,
+    light: #be8eed,
+    lighter: #e0c9f7,
+    dark: #3a1f54,
+  ),
+  Secondary: (
+    base: #f6ae2d,
+    Light: #ffc661,
+    lighter: #ffc661,
+  ),
+  Tertiary: (
+    base: #5ceaff,
+    light: #8ff0ff,
+    lighter: #c2f7ff,
+    dark: #25cde6,
+  ),
+  Neutral: (
+    base: #60536d,
+    light: #b0a8b7,
+    lighter: #b0a8b7,
+  ),
+);
