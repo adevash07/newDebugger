@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/newDebugger/static/css/main.6499fcf4.chunk.css",
+    "main.js": "/newDebugger/static/js/main.99876b12.chunk.js",
+    "main.js.map": "/newDebugger/static/js/main.99876b12.chunk.js.map",
+    "runtime-main.js": "/newDebugger/static/js/runtime-main.b58180c4.js",
+    "runtime-main.js.map": "/newDebugger/static/js/runtime-main.b58180c4.js.map",
+    "static/js/2.4afdec03.chunk.js": "/newDebugger/static/js/2.4afdec03.chunk.js",
+    "static/js/2.4afdec03.chunk.js.map": "/newDebugger/static/js/2.4afdec03.chunk.js.map",
+    "static/js/3.b9cbdefd.chunk.js": "/newDebugger/static/js/3.b9cbdefd.chunk.js",
+    "static/js/3.b9cbdefd.chunk.js.map": "/newDebugger/static/js/3.b9cbdefd.chunk.js.map",
+    "index.html": "/newDebugger/index.html",
+    "static/css/main.6499fcf4.chunk.css.map": "/newDebugger/static/css/main.6499fcf4.chunk.css.map",
+    "static/js/2.4afdec03.chunk.js.LICENSE.txt": "/newDebugger/static/js/2.4afdec03.chunk.js.LICENSE.txt",
+    "static/media/20210804_171159-removebg-preview (1).3bb207aa.png": "/newDebugger/static/media/20210804_171159-removebg-preview (1).3bb207aa.png",
+    "static/media/Net.eafc7fc8.svg": "/newDebugger/static/media/Net.eafc7fc8.svg",
+    "static/media/Syntax.80077ea4.png": "/newDebugger/static/media/Syntax.80077ea4.png",
+    "static/media/debugger.d9fa466a.png": "/newDebugger/static/media/debugger.d9fa466a.png",
+    "static/media/light-bulb.29f366e6.svg": "/newDebugger/static/media/light-bulb.29f366e6.svg",
+    "static/media/salizaarHome.502d178a.png": "/newDebugger/static/media/salizaarHome.502d178a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b58180c4.js",
+    "static/js/2.4afdec03.chunk.js",
+    "static/css/main.6499fcf4.chunk.css",
+    "static/js/main.99876b12.chunk.js"
+  ]
+}
