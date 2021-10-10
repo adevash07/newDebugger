@@ -5,7 +5,7 @@ import "./projects.scss";
 
 export default function Project() {
   return (
-    <div className='project'>
+    <div id='project' className='project'>
       <div className='project__con'>
         <h1 className='project__header header1'>
           What I've been working on<span className='dot'>.</span>
@@ -78,8 +78,8 @@ export default function Project() {
         <div className='coming'>
           <h2 className='header2'>COMING SOON - SYNTAX</h2>
           <p className='header3'>
-            Syntax is a web that helps developers improve their typing accuracy,
-            prescisioin and Speed.
+            Syntax is a Web App that helps developers improve their Typing
+            accuracy, Prescision and Speed.
           </p>
         </div>
       </div>

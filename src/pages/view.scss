@@ -7,6 +7,7 @@
 }
 .view__con {
   height: 100%;
+  position: relative;
   @include maxQ(992px) {
     width: 100%;
     overflow-x: hidden;

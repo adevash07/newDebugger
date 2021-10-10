@@ -1,0 +1,98 @@
+@use "../../style/index.scss" as *;
+.menu {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  right: 0;
+  z-index: 3;
+
+  @include minQ(993px) {
+    animation: ungrow 0.5s ease-out forwards;
+
+    &.active {
+      animation: grow 0.5s ease-out forwards;
+    }
+  }
+
+  @include maxQ(992px) {
+    position: fixed;
+    animation: ungrowMobile 0.5s ease-out forwards;
+
+    &.active {
+      animation: growMobile 0.5s ease-out forwards;
+    }
+
+    @keyframes growMobile {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 85%;
+      }
+    }
+    @keyframes ungrowMobile {
+      0% {
+        width: 85%;
+      }
+      80% {
+        visibility: hidden;
+      }
+      100% {
+        width: 0%;
+        visibility: hidden;
+      }
+    }
+  }
+
+  @keyframes grow {
+    0% {
+      width: 0%;
+    }
+
+    100% {
+      width: 50%;
+    }
+  }
+  @keyframes ungrow {
+    0% {
+      width: 50%;
+    }
+    80% {
+      visibility: hidden;
+    }
+    100% {
+      width: 0%;
+      visibility: hidden;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .menu__item {
+    color: black;
+    font-weight: 900;
+    a {
+      color: inherit;
+    }
+
+    &:hover {
+      color: $base;
+    }
+  }
+  .intro__toggle {
+    @include maxQ(992px) {
+      display: flex;
+      background-color: red;
+      .toggler {
+        background-color: white;
+      }
+    }
+  }
+}

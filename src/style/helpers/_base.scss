@@ -1,4 +1,5 @@
 @use "./mixins" as *;
+@use "./variables" as *;
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
 *,
 *::before,
@@ -20,10 +21,14 @@ html {
   }
 
   @include maxQ(992px) {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
+.red {
+  color: $base;
+  font-weight: 900;
+}
 a {
   text-decoration: none;
 }

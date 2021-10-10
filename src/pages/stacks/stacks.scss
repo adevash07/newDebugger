@@ -6,11 +6,20 @@
   @include maxQ(699px) {
     height: 165rem;
   }
+  @include maxQ(389px) {
+    height: 200rem;
+  }
   &__con {
     height: fit-content;
     width: 92%;
     margin: 0 auto;
     padding: 15rem 0 8rem 0;
+    @include maxQ(992px) {
+      padding: 18rem 0 8rem 0;
+    }
+    @include maxQ(389px) {
+      padding: 28rem 0 8rem 0;
+    }
   }
 
   &__about {
@@ -46,7 +55,7 @@
         // padding-right: 10%;
         word-spacing: 0.5rem;
         line-height: 2rem;
-        margin-left: 2rem;
+        text-align: justify;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -74,6 +83,10 @@
 
     &__header {
       text-align: center;
+
+      .header1 {
+        margin-top: 4rem;
+      }
     }
 
     &__text {

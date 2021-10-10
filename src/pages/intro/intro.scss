@@ -63,13 +63,25 @@
     gap: 1rem;
     position: relative;
     z-index: 2;
+
     @include maxQ(992px) {
       width: 100%;
       z-index: 1;
+      height: fit-content;
+
+      .intro__toggle {
+        display: flex;
+      }
+    }
+
+    @include minQ(993px) {
+      .intro__toggle {
+        display: none;
+      }
     }
 
     .name {
-      font-size: 3.5rem;
+      font-size: 3rem;
       position: absolute;
       transform: rotate(270deg);
       align-self: flex-start;
@@ -78,21 +90,34 @@
       @include maxQ(992px) {
         font-size: 2rem;
         top: 45%;
-        left: -10%;
+        left: -12%;
       }
 
       @include maxQ(749px) {
         left: -20%;
       }
 
-      @include maxQ(550px) {
-        left: -27%;
+      @include maxQ(609px) {
+        left: -25%;
       }
-      @include maxQ(459px) {
+      @include maxQ(499px) {
         left: -31%;
       }
-      @include maxQ(426px) {
-        left: -36%;
+
+      @include maxQ(441px) {
+        left: -38%;
+      }
+
+      @include maxQ(388px) {
+        left: -40%;
+        font-size: 1.8rem;
+      }
+      @include maxQ(353px) {
+        left: -42%;
+        font-size: 1.8rem;
+      }
+      @include maxQ(347px) {
+        display: none;
       }
 
       &:hover {
@@ -116,12 +141,18 @@
       justify-self: center;
       transform: translate(-60rem);
       animation: slideIn 1s 1s ease-in forwards;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 5rem;
+      @include maxQ(375px) {
+        margin-top: 5rem;
+      }
 
       &__ui,
       &__lan,
       &__dev {
         position: relative;
-
         text-shadow: none;
 
         &:hover {
@@ -149,6 +180,121 @@
           }
         }
       }
+
+      &__ui {
+        animation: shake1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        perspective-origin: center;
+        transform-origin: center;
+      }
+      &__lan {
+        animation: shake2;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+        animation-iteration-count: infinite;
+        perspective-origin: center;
+        transform-origin: center;
+      }
+      &__dev {
+        animation: shake3;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+        animation-iteration-count: infinite;
+        perspective-origin: center;
+        transform-origin: center;
+      }
+    }
+    @keyframes shake1 {
+      0% {
+        transform: rotateZ(0deg);
+      }
+      1% {
+        transform: rotateZ(-10deg);
+        color: #ffffff;
+        text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+          0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+          0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+          0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+        transform: rotateZ(-10deg);
+      }
+
+      2% {
+        transform: rotateZ(0deg);
+      }
+      3% {
+        transform: rotateZ(10deg);
+      }
+      4% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(0deg);
+      }
+    }
+
+    @keyframes shake2 {
+      0% {
+        transform: rotateZ(0deg);
+      }
+      49% {
+        transform: rotateZ(0deg);
+      }
+      50% {
+        transform: rotateZ(-10deg);
+        color: #ffffff;
+        text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+          0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+          0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+          0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+        transform: rotateZ(-10deg);
+      }
+
+      51% {
+        transform: rotateZ(0deg);
+      }
+      52% {
+        transform: rotateZ(10deg);
+      }
+      53% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(0deg);
+      }
+    }
+    @keyframes shake3 {
+      0% {
+        transform: rotateZ(0deg);
+      }
+      94% {
+        transform: rotateZ(0deg);
+      }
+      95% {
+        transform: rotateZ(-10deg);
+        color: #ffffff;
+        text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb,
+          0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1),
+          0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3),
+          0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+        transform: rotateZ(-10deg);
+      }
+
+      96% {
+        transform: rotateZ(0deg);
+      }
+      97% {
+        transform: rotateZ(10deg);
+      }
+      98% {
+        transform: rotateZ(0deg);
+      }
+      100% {
+        transform: rotateZ(0deg);
+      }
     }
     @keyframes slideIn {
       0% {
@@ -169,16 +315,26 @@
       color: white;
       @include maxQ(533px) {
         font-size: 0.7rem;
+        text-align: right;
+      }
+      @include maxQ(412px) {
+        margin-top: 2rem;
+        gap: 1rem;
       }
     }
     .intro__about {
       margin-top: 2rem;
+      margin-bottom: 4rem;
       align-self: center;
       justify-self: center;
     }
   }
   &__about {
     width: 65%;
+    @include maxQ(375px) {
+      width: 75%;
+      text-align: right;
+    }
   }
   &__neutral {
     width: 35%;
@@ -187,13 +343,24 @@
     display: flex;
     align-items: center;
     position: relative;
+
     @include maxQ(992px) {
       width: 100%;
-      position: static;
+      position: relative;
       justify-content: center;
       height: 700px;
       padding: 2rem;
       padding-right: 0;
+
+      .intro__social {
+        display: flex;
+        top: 30%;
+      }
+    }
+    @include minQ(993px) {
+      .intro__social {
+        display: none;
+      }
     }
   }
   &__toggle {
@@ -211,10 +378,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 4;
     @include maxQ(992px) {
       background-color: white;
       z-index: 2;
       top: 0;
+      display: none;
     }
     .toggler {
       width: 2rem;
@@ -259,7 +428,6 @@
     // animation-iteration-count: infinite;
     // animation-direction: alternate;
     transform: translateX(100rem);
-    min-width: 520px;
     @include maxQ(992px) {
       height: 100%;
       position: relative;
@@ -271,12 +439,16 @@
     }
     @include maxQ(992px) {
       margin-left: -20%;
+      min-width: 520px;
     }
     @include maxQ(799px) {
       margin-left: 0;
     }
     @include maxQ(631px) {
       min-width: unset;
+    }
+    @include maxQ(520px) {
+      margin-left: 2rem;
     }
     img {
       height: 100%;
@@ -341,27 +513,44 @@
     flex-direction: column;
     top: 45%;
     gap: 1.5rem;
-    @include maxQ(1290px) {
-      top: 85%;
-      right: -4%;
-    }
+    // @include maxQ(1290px) {
+    //   top: 85%;
+    //   right: -4%;
+    // }
     @include maxQ(992px) {
+      display: none;
       right: unset;
       left: 0;
       top: 70%;
+
       margin-left: 2rem;
       z-index: 3;
+    }
+    @include maxQ(520px) {
+      right: unset;
+      left: 0;
+      top: 70%;
+      z-index: 3;
+      margin-left: 0;
+      margin-right: 2rem;
+      svg {
+        width: 1.8rem;
+        height: 1.8rem;
+      }
     }
     &__list {
       filter: blur(1px);
       &:hover {
         filter: none;
       }
+      @include maxQ(520px) {
+        filter: blur(0.3px);
+      }
     }
   }
   &__menu {
     position: absolute;
-    top: 8%;
+    top: 10%;
     transform: rotate(90deg);
     font-weight: 700;
     right: -4%;

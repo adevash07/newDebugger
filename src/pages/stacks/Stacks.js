@@ -4,7 +4,7 @@ import "./stacks.scss";
 
 export default function Stacks() {
   return (
-    <div className='stack'>
+    <div id='about' className='stack'>
       <div className='stack__con'>
         <h2 className='stack__hi'>
           Hi , I'am Ibrahim. Nice to meet you________________🤖{" "}
@@ -16,41 +16,61 @@ export default function Stacks() {
         <div className='stack__grid'>
           <div className='stack__grid__list1'>
             <p>
-              Since the beginning of my journey in 2019 into the world of
-              Software Engineering and currently working as FrontEnd Developer
-              @ImperoTechne. Through this experiences, I've had the oppurtunity
-              to collaborate with several talented developer and designer in
-              creating digital products for both Enterprise and consumer use,
-              writing code that are maintaineable and scaleable.
+              <span>
+                I have <span className='red'>over 2years</span> Experince in
+                Software Engineering and currently working as{" "}
+                <span className='red'>FrontEnd Developer @ImperoTechne.</span>
+                <br />
+                <br /> Through this experiences, I've had the oppurtunity to
+                collaborate with several talented developer and designer in
+                creating digital products such as{" "}
+                <span className='red'>
+                  ERP SOLUITON and Freelancing Solution like UpWork.
+                </span>{" "}
+                for both Enterprise and consumer use, writing code that are
+                maintaineable and scaleable.
+              </span>
             </p>
             <p className='quote'>
-              <ImQuotesLeft /> As I've grown as a developer, I've worked
-              alongside senior designers and developers who have raised my
-              standards for whats expected of any web application.{" "}
+              <ImQuotesLeft />{" "}
+              <span>
+                I've worked alongside top-notch designers and developers,
+                collaborating with developer from communities such{" "}
+                <span className='red'>
+                  Andela Developer, I4G Developers, Hng Coummunities{" "}
+                </span>{" "}
+                all which have raised my standards for whats expected of any web
+                application.{" "}
+              </span>
               <ImQuotesRight />
             </p>
           </div>
           <div className='stack__grid__list1 gads'>
             <div className='stack__gads'>
-              <h1 className='stack__gads__header header1'>
+              <h1
+                className='stack__gads__header header1'
+                style={{ marginTop: "5rem" }}>
                 Being an Andela Mobile Web Specialist Mentor{" "}
                 <span className='dot'>.</span>
               </h1>
               <p className='stack__gads__text'>
                 Being a recipient of the Andela in partner with Google Africa
                 Developer training Certification in 2019, which help launch my
-                career in tech. I was super excited when andela reached out,
-                inviting me to be one their 2021 MWS Mentors. I recognise the
-                impact of such program in building tech talent in africa, as a
-                product of the program.
+                career in tech.
+                <br />
+                <br />I was super excited when andela reached out, inviting me
+                to be one their 2021 MWS Mentors. I recognise the impact of such
+                program in building tech talent in africa, as a product of the
+                program.
                 <br />
                 <br />
                 Tasked with the duties of mentoring both aspiring, junior & even
                 Intermediate level developer, guilding on through the process
-                building web and wep applicatio. Provide lessons from HTML, CSS
-                and Javascript, React, Angular, git. Finally, guilding them on
-                building a Web Application as their final assesment for getting
-                the certification.
+                building web and wep applicatio. <br />
+                <br />
+                Provide lessons from HTML, CSS and Javascript, React, Angular,
+                git. Finally, guilding them on building a Web Application as
+                their final assesment for getting the certification.
                 <br />
                 <br />
                 It served as a oppurtunity to learn from developers from all
@@ -61,7 +81,7 @@ export default function Stacks() {
             <div className='stack__duties'></div>
           </div>
           <div className='stack__grid__list1 second'>
-            <div className='stack__skills'>
+            <div id='skills' className='stack__skills'>
               <h1 className='skills__header header1'>
                 My Skills<span className='dot'>.</span>
               </h1>
