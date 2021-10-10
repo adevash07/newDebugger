@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/newDebugger/static/css/main.b62eedbc.chunk.css",
-    "main.js": "/newDebugger/static/js/main.99876b12.chunk.js",
-    "main.js.map": "/newDebugger/static/js/main.99876b12.chunk.js.map",
-    "runtime-main.js": "/newDebugger/static/js/runtime-main.b58180c4.js",
-    "runtime-main.js.map": "/newDebugger/static/js/runtime-main.b58180c4.js.map",
-    "static/js/2.4afdec03.chunk.js": "/newDebugger/static/js/2.4afdec03.chunk.js",
-    "static/js/2.4afdec03.chunk.js.map": "/newDebugger/static/js/2.4afdec03.chunk.js.map",
-    "static/js/3.b9cbdefd.chunk.js": "/newDebugger/static/js/3.b9cbdefd.chunk.js",
-    "static/js/3.b9cbdefd.chunk.js.map": "/newDebugger/static/js/3.b9cbdefd.chunk.js.map",
+    "main.css": "/newDebugger/static/css/main.1ef14579.chunk.css",
+    "main.js": "/newDebugger/static/js/main.75ffa69e.chunk.js",
+    "main.js.map": "/newDebugger/static/js/main.75ffa69e.chunk.js.map",
+    "runtime-main.js": "/newDebugger/static/js/runtime-main.12f5fce0.js",
+    "runtime-main.js.map": "/newDebugger/static/js/runtime-main.12f5fce0.js.map",
+    "static/js/2.2eeab912.chunk.js": "/newDebugger/static/js/2.2eeab912.chunk.js",
+    "static/js/2.2eeab912.chunk.js.map": "/newDebugger/static/js/2.2eeab912.chunk.js.map",
+    "static/js/3.f1ce3b58.chunk.js": "/newDebugger/static/js/3.f1ce3b58.chunk.js",
+    "static/js/3.f1ce3b58.chunk.js.map": "/newDebugger/static/js/3.f1ce3b58.chunk.js.map",
     "index.html": "/newDebugger/index.html",
-    "static/css/main.b62eedbc.chunk.css.map": "/newDebugger/static/css/main.b62eedbc.chunk.css.map",
-    "static/js/2.4afdec03.chunk.js.LICENSE.txt": "/newDebugger/static/js/2.4afdec03.chunk.js.LICENSE.txt",
+    "static/css/main.1ef14579.chunk.css.map": "/newDebugger/static/css/main.1ef14579.chunk.css.map",
+    "static/js/2.2eeab912.chunk.js.LICENSE.txt": "/newDebugger/static/js/2.2eeab912.chunk.js.LICENSE.txt",
     "static/media/20210804_171159-removebg-preview (1).3bb207aa.png": "/newDebugger/static/media/20210804_171159-removebg-preview (1).3bb207aa.png",
     "static/media/Net.eafc7fc8.svg": "/newDebugger/static/media/Net.eafc7fc8.svg",
     "static/media/Syntax.80077ea4.png": "/newDebugger/static/media/Syntax.80077ea4.png",
@@ -20,9 +20,9 @@
     "static/media/salizaarHome.502d178a.png": "/newDebugger/static/media/salizaarHome.502d178a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b58180c4.js",
-    "static/js/2.4afdec03.chunk.js",
-    "static/css/main.b62eedbc.chunk.css",
-    "static/js/main.99876b12.chunk.js"
+    "static/js/runtime-main.12f5fce0.js",
+    "static/js/2.2eeab912.chunk.js",
+    "static/css/main.1ef14579.chunk.css",
+    "static/js/main.75ffa69e.chunk.js"
   ]
 }
