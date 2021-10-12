@@ -4,7 +4,7 @@ import "./menu.scss";
 export default function Menu({ active, toggle }) {
   return (
     <div className={`menu ${active && "active"}`}>
-      <ul className='menu__list'>
+      <ul className={`menu__list ${active && "active"}`}>
         <li className='menu__item header2'>
           <a href='#home'>Home</a>
         </li>

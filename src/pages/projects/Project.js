@@ -1,5 +1,5 @@
 import React from "react";
-import { Debugger, salizaar } from "../../assets";
+import { Debugger, salizaar, String, Petals } from "../../assets";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import "./projects.scss";
 
@@ -19,7 +19,7 @@ export default function Project() {
           <div className='project__grid__list'>
             <div className='project__grid__container'>
               <div className='imgCon'>
-                <img src={salizaar} alt='' />
+                <img src={String} alt='' />
               </div>
               <h2 className='header2'>Strings (The App.)</h2>
               <p>
@@ -27,7 +27,9 @@ export default function Project() {
                 Node.js, web socket
               </p>
               <h4>
-                View More <BsBoxArrowInUpRight />
+                <a href='https://strings.netlify.app'>
+                  View More <BsBoxArrowInUpRight />
+                </a>
               </h4>
             </div>
           </div>
@@ -42,7 +44,9 @@ export default function Project() {
                 React, Context Api, Firebase, scss
               </p>
               <h4>
-                View More <BsBoxArrowInUpRight />
+                <a alt='link' href='#e'>
+                  View More <BsBoxArrowInUpRight />
+                </a>
               </h4>
             </div>
           </div>
@@ -62,15 +66,17 @@ export default function Project() {
           <div className='project__grid__list'>
             <div className='project__grid__container'>
               <div className='imgCon'>
-                <img src={salizaar} alt='' />
+                <img src={Petals} alt='' />
               </div>
-              <h2 className='header2'>Hotel Petals</h2>
+              <h2 className='header2'>a Hotel Petals</h2>
               <p>
                 An Hotel webiste to book rooms. Built HTML, CSS(SCSS),
                 Javascript
               </p>
               <h4>
-                View More <BsBoxArrowInUpRight />
+                <a href='https://petalshotel.netlify.com'>
+                  View More <BsBoxArrowInUpRight />
+                </a>
               </h4>
             </div>
           </div>

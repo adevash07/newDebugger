@@ -1,0 +1,56 @@
+@use "../../style/index.scss" as *;
+.cssload {
+  height: 100vh;
+  background-color: $base;
+  animation: fade 2s ease-out reverse;
+}
+.cssload__robot {
+  height: 5%;
+  padding-left: 2%;
+  animation: fadeIn 2s ease-in-out reverse;
+}
+.cssload__container {
+  justify-content: center;
+  height: 95%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cssload__robot {
+  justify-self: flex-start;
+}
+.cssload__crazy__arrow {
+  justify-self: center;
+  width: 49px;
+  height: 49px;
+  margin: 0 auto;
+  border: 5px solid;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-color: rgb(250, 250, 250);
+  animation: cssload-spin 880ms infinite linear, move 2s ease-in;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cssload-spin {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

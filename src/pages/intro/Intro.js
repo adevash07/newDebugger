@@ -6,6 +6,7 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import "./intro.scss";
+import ArrowDown from "../../component/ArrowDown/ArrowDown";
 
 export default function Intro({ toggle }) {
   return (
@@ -32,13 +33,17 @@ export default function Intro({ toggle }) {
             <span>- Reliable</span>
           </h4>
           <p className='intro__about'>
-            Hi, my name is Ibrahim Adeyemi and Software Developer, I specialize
-            in FrontEnd Developement using stack such as{" "}
-            <span style={{ color: "white" }}>React.js, Vue, Node.</span>
-            <br />
-            <br />
+            I specializein FrontEnd Developement using stack such as :{" "}
             <span style={{ color: "white" }}>
-              SrollDown to checkout my work .
+              {" "}
+              <br />
+              <br /> React.js, Vue, Node, Java, Salesforce
+            </span>
+            <br />
+            <br />
+            <br />
+            <span style={{ color: "white", marginTop: "8rem" }}>
+              SrollDown to checkout my work .<ArrowDown />
             </span>
           </p>
         </div>
