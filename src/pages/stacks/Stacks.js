@@ -47,8 +47,8 @@ export default function Stacks() {
                 <br />
                 <br />
                 Tasked with the duties of mentoring both aspiring, junior,
-                Intermediate level developer, guilding on through the process
-                building web and wep applicatio. <br />
+                Intermediate level developer, guilding on through the process of
+                building web applications. <br />
                 <br />
                 Provided lessons from HTML, CSS and Javascript, React, Angular,
                 git. Finally, guilding them on building a Web Application as

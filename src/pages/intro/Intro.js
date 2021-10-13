@@ -34,8 +34,10 @@ export default function Intro({ toggle }) {
           </h4>
           <p className='intro__about'>
             <span style={{ color: "white" }}>
-              <br /> React.js, Vue, Node, Java, Salesforce
+              React.js, Vue, Node, Java, Salesforce
             </span>
+            <br />
+            <br />
             <span style={{ color: "white", marginTop: "8rem" }}>
               SrollDown to checkout my work.
               <ArrowDown />
