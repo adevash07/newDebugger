@@ -38,7 +38,7 @@ export default function Intro({ toggle }) {
             </span>
             <br />
             <br />
-            <span style={{ color: "white", marginTop: "8rem" }}>
+            <span style={{ color: "white", marginTop: "10rem" }}>
               SrollDown to checkout my work.
               <ArrowDown />
             </span>
