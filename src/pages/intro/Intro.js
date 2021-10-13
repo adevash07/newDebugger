@@ -6,7 +6,7 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import "./intro.scss";
-import ArrowDown from "../../component/ArrowDown/ArrowDown";
+import ArrowDown from "../../component/loading/ArrowDown/ArrowDown";
 
 export default function Intro({ toggle }) {
   return (

@@ -74,6 +74,10 @@
       }
     }
 
+    @include maxQ(599px) {
+      height: 100vh;
+    }
+
     @include minQ(993px) {
       .intro__toggle {
         display: none;
@@ -100,23 +104,7 @@
       @include maxQ(609px) {
         left: -25%;
       }
-      @include maxQ(499px) {
-        left: -31%;
-      }
-
-      @include maxQ(441px) {
-        left: -38%;
-      }
-
-      @include maxQ(388px) {
-        left: -40%;
-        font-size: 1.8rem;
-      }
-      @include maxQ(353px) {
-        left: -42%;
-        font-size: 1.8rem;
-      }
-      @include maxQ(347px) {
+      @include maxQ(599px) {
         display: none;
       }
 
@@ -331,7 +319,7 @@
   }
   &__about {
     width: 65%;
-    @include maxQ(375px) {
+    @include maxQ(441px) {
       width: 75%;
       text-align: right;
     }

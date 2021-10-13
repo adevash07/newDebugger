@@ -1,4 +1,4 @@
-@use "../../style/index.scss" as *;
+@use "../../../style/index.scss" as *;
 .arrows {
   width: 60px;
   height: 72px;
@@ -8,6 +8,10 @@
   bottom: 20px;
   @include minQ(993px) {
     right: 40%;
+  }
+  @include maxQ(441px) {
+    right: unset;
+    left: 8%;
   }
 }
 
