@@ -1,17 +1,17 @@
 @use "../../../style/index.scss" as *;
 .arrows {
-  width: 60px;
   height: 72px;
   position: absolute;
   right: 0;
   margin-left: -30px;
   bottom: 20px;
   @include minQ(993px) {
+    width: 60px;
     right: 40%;
   }
   @include maxQ(441px) {
     right: unset;
-    left: 8%;
+    left: 40px;
   }
 }
 

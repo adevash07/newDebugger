@@ -27,7 +27,7 @@ export default function Project() {
                 Node.js, web socket
               </p>
               <h4>
-                <a href='https://strings.netlify.app'>
+                <a href='https://stringschat.netlify.app'>
                   View More <BsBoxArrowInUpRight />
                 </a>
               </h4>
@@ -44,7 +44,7 @@ export default function Project() {
                 React, Context Api, Firebase, scss
               </p>
               <h4>
-                <a alt='link' href='#e'>
+                <a alt='link' href='https://'>
                   View More <BsBoxArrowInUpRight />
                 </a>
               </h4>

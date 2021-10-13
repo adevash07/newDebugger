@@ -75,7 +75,7 @@
     }
 
     @include maxQ(599px) {
-      height: 100vh;
+      height: 70vh;
     }
 
     @include minQ(993px) {
@@ -131,7 +131,7 @@
       animation: slideIn 1s 1s ease-in forwards;
       display: flex;
       flex-direction: column;
-      gap: 1.5rem;
+      gap: 2rem;
       margin-top: 5rem;
       @include maxQ(375px) {
         margin-top: 5rem;
@@ -307,7 +307,7 @@
       }
       @include maxQ(412px) {
         margin-top: 2rem;
-        gap: 1rem;
+        gap: 0rem;
       }
     }
     .intro__about {
@@ -508,7 +508,7 @@
     @include maxQ(992px) {
       display: none;
       right: unset;
-      left: 0;
+      left: 14px;
       top: 70%;
 
       margin-left: 2rem;
@@ -516,7 +516,7 @@
     }
     @include maxQ(520px) {
       right: unset;
-      left: 0;
+      left: 14px;
       top: 70%;
       z-index: 3;
       margin-left: 0;

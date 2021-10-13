@@ -9,7 +9,7 @@ function App() {
     setTimeout(() => {
       setisLoading(false);
     });
-  }, 2000);
+  }, 3000);
   return (
     <div className='App'>
       {isLoading && <Loading />}

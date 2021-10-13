@@ -4,11 +4,9 @@
   color: white;
   height: fit-content;
   @include maxQ(699px) {
-    height: 165rem;
+    height: 170rem;
   }
-  @include maxQ(389px) {
-    height: 200rem;
-  }
+
   &__con {
     height: fit-content;
     width: 92%;
@@ -18,12 +16,13 @@
       padding: 18rem 0 8rem 0;
     }
     @include maxQ(389px) {
-      padding: 28rem 0 8rem 0;
+      padding: 20rem 0 8rem 0;
     }
   }
 
   &__about {
     margin-top: 4rem;
+    margin-bottom: 2rem;
   }
   .dot {
     color: $base;
@@ -47,7 +46,6 @@
       }
 
       &.gads {
-        margin-top: 4rem;
         max-height: fit-content;
       }
       p {
@@ -57,8 +55,8 @@
         line-height: 2rem;
         text-align: justify;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
       }
       .quote {
         text-align: center;
@@ -73,20 +71,14 @@
     flex: 1;
     margin-bottom: 4rem;
 
-    @include maxQ(460px) {
-      margin-top: 6rem;
-    }
+    margin-top: 4rem;
 
-    @include maxQ(395px) {
-      margin-top: 8rem;
-    }
+    // @include maxQ(395px) {
+    //   margin-top: 8rem;
+    // }
 
     &__header {
       text-align: center;
-
-      .header1 {
-        margin-top: 4rem;
-      }
     }
 
     &__text {

@@ -33,17 +33,12 @@ export default function Intro({ toggle }) {
             <span>- Reliable</span>
           </h4>
           <p className='intro__about'>
-            I specializein FrontEnd Developement using stack such as :{" "}
             <span style={{ color: "white" }}>
-              {" "}
-              <br />
               <br /> React.js, Vue, Node, Java, Salesforce
             </span>
-            <br />
-            <br />
-            <br />
             <span style={{ color: "white", marginTop: "8rem" }}>
-              SrollDown to checkout my work .<ArrowDown />
+              SrollDown to checkout my work.
+              <ArrowDown />
             </span>
           </p>
         </div>
