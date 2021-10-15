@@ -33,15 +33,18 @@ function Intro({ toggle }) {
             <span>- Reliable</span>
           </h4>
           <p className='intro__about'>
-            <span style={{ color: "white" }}>
-              React.js, Vue, Node, Java, Salesforce
-            </span>
+            <span style={{ color: "white" }}>A REACT SPECIALIST.</span>
             <br />
             <br />
-            <span style={{ color: "white", marginTop: "10rem" }}>
+            <span
+              style={{
+                color: "white",
+                marginTop: "3rem",
+                display: "inlineBlock",
+              }}>
               SrollDown to checkout my work.
-              <ArrowDown />
             </span>
+            <ArrowDown />
           </p>
         </div>
         <div className='intro__neutral'>

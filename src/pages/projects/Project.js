@@ -30,7 +30,7 @@ export default function Project() {
                 <h2 className='header2'>Strings (The App.)</h2>
                 <p>
                   A Full Realtime Chat Application built using React, Redux,
-                  scss, Node.js, web socket
+                  scss, Node.js, web socket, Firebase
                 </p>
                 <h4>
                   <a href='https://stringschat.netlify.app'>
