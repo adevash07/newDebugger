@@ -16,8 +16,8 @@ export default function View() {
     });
   };
   return (
-    <div className='view'>
-      <div className='view__con container--wide'>
+    <div id='view' className='view'>
+      <div id='view__con' className='view__con container--wide'>
         <Menu active={menuActive} toggle={menuHandler} />
         <Intro toggle={menuHandler} />
         <Stacks />

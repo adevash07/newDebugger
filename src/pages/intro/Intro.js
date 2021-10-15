@@ -57,26 +57,38 @@ export default function Intro({ toggle }) {
           </div>
           <ul className='intro__social'>
             <li className='intro__social__list'>
-              <AiFillLinkedin size='20' />
+              <a href='https://www.linkedin.com/in/adeyemiibrahim/'>
+                <AiFillLinkedin size='20' />{" "}
+              </a>
             </li>
             <li className='intro__social__list'>
-              <AiFillGithub size='20' />
+              <a href='https://github.com/adevash07'>
+                <AiFillGithub size='20' />
+              </a>
             </li>
             <li className='intro__social__list'>
-              <AiFillTwitterSquare size='20' />
+              <a href='https://www.twitter.com/adevash07'>
+                <AiFillTwitterSquare size='20' />
+              </a>
             </li>
           </ul>
         </div>
       </div>
       <ul className='intro__social'>
         <li className='intro__social__list'>
-          <AiFillLinkedin size='20' />
+          <a href='https://www.linkedin.com/in/adeyemiibrahim/'>
+            <AiFillLinkedin size='20' />{" "}
+          </a>
         </li>
         <li className='intro__social__list'>
-          <AiFillGithub size='20' />
+          <a href='https://github.com/adevash07'>
+            <AiFillGithub size='20' />
+          </a>
         </li>
         <li className='intro__social__list'>
-          <AiFillTwitterSquare size='20' />
+          <a href='https://www.twitter.com/adevash07'>
+            <AiFillTwitterSquare size='20' />
+          </a>
         </li>
       </ul>
       <span className='intro__menu'>navigation</span>

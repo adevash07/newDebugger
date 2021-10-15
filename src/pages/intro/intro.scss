@@ -74,9 +74,9 @@
       }
     }
 
-    @include maxQ(599px) {
-      height: 63vh;
-    }
+    // @include maxQ(599px) {
+    //   height: 63vh;
+    // }
 
     @include minQ(993px) {
       .intro__toggle {
@@ -528,6 +528,9 @@
     }
     &__list {
       filter: blur(1px);
+      svg {
+        color: black;
+      }
       &:hover {
         filter: none;
       }
