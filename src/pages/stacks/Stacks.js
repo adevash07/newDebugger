@@ -12,7 +12,7 @@ export default function Stacks() {
             <span className='dot'>.</span>
           </h2>
         </Animate>
-        <Animate animateTop={true}>
+        <Animate animateLeft={true}>
           <h1 className='stack__about header1'>
             About<span className='dot'>.</span>
           </h1>{" "}
@@ -20,14 +20,14 @@ export default function Stacks() {
         <div className='stack__grid'>
           <div className='stack__grid__list1'>
             <p>
-              <Animate animateTop={true}>
+              <Animate animateLeft={true}>
                 <span>
-                  I have <span className='red'>over 2years</span> Experince in
-                  Software Engineering and currently working as{" "}
+                  I have <span className='red'>more than 2 years</span>{" "}
+                  Experince in Software Engineering and currently working as{" "}
                   <span className='red'>FrontEnd Developer @ImperoTechne.</span>
                 </span>
               </Animate>
-              <Animate animateTop={true}>
+              <Animate animateRight={true}>
                 <span>
                   Worked on Project{" "}
                   <span className='red'>
