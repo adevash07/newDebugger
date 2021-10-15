@@ -5,10 +5,12 @@
   max-width: 2000px;
   margin: 0 auto;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .view__con {
   height: 100%;
   position: relative;
+  scroll-behavior: smooth;
   @include maxQ(992px) {
     width: 100%;
     overflow-x: hidden;
