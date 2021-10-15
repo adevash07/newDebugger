@@ -1,7 +1,7 @@
 import React from "react";
 import "./menu.scss";
 
-export default function Menu({ active, toggle }) {
+function Menu({ active, toggle }) {
   return (
     <div className={`menu ${active && "active"}`}>
       <ul className={`menu__list ${active && "active"}`}>
@@ -27,3 +27,5 @@ export default function Menu({ active, toggle }) {
     </div>
   );
 }
+
+export default React.memo(Menu);

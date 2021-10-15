@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.scss";
 
-export default function Contact() {
+function Contact() {
   return (
     <div id='contact' className='contact'>
       <div className='contact__con'>
@@ -21,3 +21,5 @@ export default function Contact() {
     </div>
   );
 }
+
+export default React.memo(Contact);

@@ -1,7 +1,7 @@
 import React from "react";
 import "./loading.scss";
 
-export default function Loading() {
+function Loading() {
   return (
     <div className='cssload'>
       <h1 className='cssload__robot'>🤖</h1>
@@ -12,3 +12,5 @@ export default function Loading() {
     </div>
   );
 }
+
+export default React.memo(Loading);

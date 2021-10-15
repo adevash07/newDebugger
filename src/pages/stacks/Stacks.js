@@ -82,7 +82,7 @@ export default function Stacks() {
                     <Animate animateTop={true}>
                       <li className='stack__skill__list'>
                         <span className='list__style'></span>
-                        <span className='header3'>Javascript</span>
+                        <span className='header3'>TypeScript, Javascript</span>
                       </li>
                     </Animate>
                     <Animate animateTop={true}>
@@ -96,7 +96,7 @@ export default function Stacks() {
                     <Animate animateTop={true}>
                       <li className='stack__skill__list'>
                         <span className='list__style'></span>
-                        <span className='header3'>Sass, Material UI</span>
+                        <span className='header3'>SCSS, Material UI</span>
                       </li>
                     </Animate>
                     <Animate animateTop={true}>
@@ -112,25 +112,27 @@ export default function Stacks() {
                     <Animate animateBottom={true}>
                       <li className='stack__skill__list secondList'>
                         <span className='list__style'></span>
-                        <span className='header3'>Graphql</span>
+                        <span className='header3'>React Router,Graphql</span>
                       </li>
                     </Animate>
                     <Animate animateBottom={true}>
                       <li className='stack__skill__list secondList'>
                         <span className='list__style'></span>
-                        <span className='header3'>Git & GitHub</span>
+                        <span className='header3'>Git, Npm, yarn, Netlify</span>
                       </li>
                     </Animate>
                     <Animate animateBottom={true}>
                       <li className='stack__skill__list secondList'>
                         <span className='list__style'></span>
-                        <span className='header3'>Redux </span>
+                        <span className='header3'>Redux, Agile SDLC </span>
                       </li>
                     </Animate>
                     <Animate animateBottom={true}>
                       <li className='stack__skill__list secondList'>
                         <span className='list__style'></span>
-                        <span className='header3'>Java</span>
+                        <span className='header3'>
+                          React Testing Libray, Jest
+                        </span>
                       </li>
                     </Animate>
                   </ul>

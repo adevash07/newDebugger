@@ -8,7 +8,7 @@ import {
 import "./intro.scss";
 import ArrowDown from "../../component/loading/ArrowDown/ArrowDown";
 
-export default function Intro({ toggle }) {
+function Intro({ toggle }) {
   return (
     <div id='home' className='intro'>
       <div className='intro__header'>{/* <h3>debugger________🤖</h3> */}</div>
@@ -96,3 +96,5 @@ export default function Intro({ toggle }) {
     </div>
   );
 }
+
+export default React.memo(Intro);
