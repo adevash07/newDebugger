@@ -33,7 +33,7 @@ function Animate({
     }
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [window.innerWidth]);
 
   const handleScroll = () => {
     const topPos = animateRef.current.getBoundingClientRect().top;
@@ -44,41 +44,45 @@ function Animate({
         setanimate((prev) => {
           return { ...prev, right: true };
         });
-      } else {
-        setanimate((prev) => {
-          return { ...prev, right: false };
-        });
       }
+      // else {
+      //   setanimate((prev) => {
+      //     return { ...prev, right: false };
+      //   });
+      // }
     } else if (animateLeft) {
       if (topPos <= scrollPosY) {
         setanimate((prev) => {
           return { ...prev, left: true };
         });
-      } else {
-        setanimate((prev) => {
-          return { ...prev, left: false };
-        });
       }
+      // else {
+      //   setanimate((prev) => {
+      //     return { ...prev, left: false };
+      //   });
+      // }
     } else if (animateTop) {
       if (topPos <= scrollPosY) {
         setanimate((prev) => {
           return { ...prev, top: true };
         });
-      } else {
-        setanimate((prev) => {
-          return { ...prev, top: false };
-        });
       }
+      // else {
+      //   setanimate((prev) => {
+      //     return { ...prev, top: false };
+      //   });
+      // }
     } else if (animateBottom) {
       if (topPos <= scrollPosY) {
         setanimate((prev) => {
           return { ...prev, bottom: true };
         });
-      } else {
-        setanimate((prev) => {
-          return { ...prev, bottom: false };
-        });
       }
+      // else {
+      //   setanimate((prev) => {
+      //     return { ...prev, bottom: false };
+      //   });
+      // }
     }
   };
 
@@ -146,4 +150,4 @@ function Animate({
   );
 }
 
-export default Animate;
+export default React.memo(Animate);
