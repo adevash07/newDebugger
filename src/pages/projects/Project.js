@@ -30,7 +30,7 @@ export default function Project() {
                 <h2 className='header2'>Strings (The App.)</h2>
                 <p>
                   A Full Realtime Chat Application built using React, Redux,
-                  scss, Node.js, web socket, Firebase
+                  scss, React Chat Engine, Firebase
                 </p>
                 <h4>
                   <a href='https://stringschat.netlify.app'>
@@ -41,9 +41,7 @@ export default function Project() {
             </Animate>
           </div>
           <div className='project__grid__list'>
-            <Animate
-              animateBottom={window.innerWidth >= 992 ? true : false}
-              animateRight={window.innerWidth < 992 ? true : false}>
+            <Animate animateRight={true}>
               <div className='project__grid__container'>
                 <div className='imgCon'>
                   <img src={salizaar} alt='Salizaar the E-commmerce App' />
@@ -54,14 +52,14 @@ export default function Project() {
                   React, Context Api, Firebase, scss
                 </p>
                 <h4>
-                  <a alt='link' href='https://'>
+                  <a alt='link' href='https://salizaar.netlify.app/'>
                     View More <BsBoxArrowInUpRight />
                   </a>
                 </h4>
               </div>
             </Animate>
           </div>
-          <Animate animateLeft={true}>
+          <>
             <div className='project__grid__list'>
               <div className='project__grid__container'>
                 <div className='imgCon'>
@@ -75,9 +73,9 @@ export default function Project() {
                 </h4>
               </div>
             </div>
-          </Animate>
+          </>
           <div className='project__grid__list'>
-            <Animate animateRight={true}>
+            <>
               <div className='project__grid__container'>
                 <div className='imgCon'>
                   <img src={Petals} alt='' />
@@ -93,7 +91,7 @@ export default function Project() {
                   </a>
                 </h4>
               </div>
-            </Animate>
+            </>
           </div>
         </div>
         <div className='coming'>
