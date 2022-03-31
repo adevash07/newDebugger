@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Net } from "../../assets/index";
+import { Net } from "../../assets/index";
 import {
   AiFillLinkedin,
   AiFillGithub,
