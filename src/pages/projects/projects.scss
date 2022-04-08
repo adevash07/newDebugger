@@ -60,12 +60,42 @@
     }
     &__list:nth-child(3) {
       .imgCon {
-        padding: 0;
+        background-color: lightgreen;
       }
     }
     &__list:nth-child(4) {
       .imgCon {
         background-color: hsl(2, 100%, 80%);
+      }
+    }
+    &__list:nth-child(5) {
+      .imgCon {
+        background-color: #eff7fa;
+      }
+    }
+    &__list:nth-child(6) {
+      .imgCon {
+        background-color: #fef7db;
+      }
+    }
+    &__list:nth-child(7) {
+      .imgCon {
+        background-color: lightgreen;
+      }
+    }
+    &__list:nth-child(8) {
+      .imgCon {
+        background-color: #fef7db;
+      }
+    }
+    &__list:nth-child(9) {
+      .imgCon {
+        background-color: #eff7fa;
+      }
+    }
+    &__list:nth-child(10) {
+      .imgCon {
+        background-color: #fef7db;
       }
     }
   }

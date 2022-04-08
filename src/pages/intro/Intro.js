@@ -64,17 +64,29 @@ function Intro({ toggle }) {
           </div>
           <ul className="intro__social">
             <li className="intro__social__list">
-              <a href="https://www.linkedin.com/in/adeyemiibrahim/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/adeyemiibrahim/"
+              >
                 <AiFillLinkedin size="20" />{" "}
               </a>
             </li>
             <li className="intro__social__list">
-              <a href="https://github.com/adevash07">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/adevash07"
+              >
                 <AiFillGithub size="20" />
               </a>
             </li>
             <li className="intro__social__list">
-              <a href="https://www.twitter.com/adevash07">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.twitter.com/adevash07"
+              >
                 <AiFillTwitterSquare size="20" />
               </a>
             </li>
@@ -83,17 +95,29 @@ function Intro({ toggle }) {
       </div>
       <ul className="intro__social">
         <li className="intro__social__list">
-          <a href="https://www.linkedin.com/in/adeyemiibrahim/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/adeyemiibrahim/"
+          >
             <AiFillLinkedin size="20" />{" "}
           </a>
         </li>
         <li className="intro__social__list">
-          <a href="https://github.com/adevash07">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/adevash07"
+          >
             <AiFillGithub size="20" />
           </a>
         </li>
         <li className="intro__social__list">
-          <a href="https://www.twitter.com/adevash07">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.twitter.com/adevash07"
+          >
             <AiFillTwitterSquare size="20" />
           </a>
         </li>

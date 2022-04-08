@@ -3,12 +3,12 @@ import "./loading.scss";
 
 function Loading() {
   return (
-    <div className='cssload'>
-      <h1 className='cssload__robot' style={{ color: "white" }}>
-        Debugger
+    <div className="cssload">
+      <h1 className="cssload__robot" style={{ color: "white" }}>
+        🤖
       </h1>
-      <div className='cssload__container'>
-        <div className='cssload__crazy__arrow'></div>
+      <div className="cssload__container">
+        <div className="cssload__crazy__arrow"></div>
         <h3>Laoding ......</h3>
       </div>
     </div>
