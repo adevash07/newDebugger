@@ -26,7 +26,17 @@ export default function Stacks() {
                   Experince in Software Engineering and currently working as{" "}
                   <span className="red">UI enigineer @Arisoft Consult.</span>
                 </span>
-                <span> I help companies their build and launch their MVP.</span>
+                <span style={{ display: "inline-block", marginTop: "2rem" }}>
+                  {" "}
+                  I help companies their build and launch their MVP.
+                  Self-motivated software developer with deep knowledge and
+                  proficiency in Typescript/Javascript, rEACT, SCSS. Higly
+                  potent skills in architecting and developer responsive user
+                  interfaces an eye for good design. I love innovating designs
+                  and staying on the bleeding edge of technology. Seeking
+                  oppurtunity to collaborate in building sophiscated software
+                  application.
+                </span>
               </Animate>
               <Animate animateRight={true}>
                 <span>
@@ -115,6 +125,12 @@ export default function Stacks() {
                       <li className="stack__skill__list secondList">
                         <span className="list__style"></span>
                         <span className="header3">React Router,Graphql</span>
+                      </li>
+                    </Animate>
+                    <Animate animateBottom={true}>
+                      <li className="stack__skill__list secondList">
+                        <span className="list__style"></span>
+                        <span className="header3">React Query, </span>
                       </li>
                     </Animate>
                     <Animate animateBottom={true}>
