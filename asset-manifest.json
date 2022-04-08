@@ -1,30 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.61a6d815.chunk.css",
-    "main.js": "/static/js/main.e18bee78.chunk.js",
-    "main.js.map": "/static/js/main.e18bee78.chunk.js.map",
+    "main.css": "/static/css/main.b67d3add.chunk.css",
+    "main.js": "/static/js/main.54b062b9.chunk.js",
+    "main.js.map": "/static/js/main.54b062b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9d6e382.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9d6e382.js.map",
-    "static/js/2.3e9d5abc.chunk.js": "/static/js/2.3e9d5abc.chunk.js",
-    "static/js/2.3e9d5abc.chunk.js.map": "/static/js/2.3e9d5abc.chunk.js.map",
+    "static/js/2.aaa0e115.chunk.js": "/static/js/2.aaa0e115.chunk.js",
+    "static/js/2.aaa0e115.chunk.js.map": "/static/js/2.aaa0e115.chunk.js.map",
     "static/js/3.111ac8d6.chunk.js": "/static/js/3.111ac8d6.chunk.js",
     "static/js/3.111ac8d6.chunk.js.map": "/static/js/3.111ac8d6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.61a6d815.chunk.css.map": "/static/css/main.61a6d815.chunk.css.map",
-    "static/js/2.3e9d5abc.chunk.js.LICENSE.txt": "/static/js/2.3e9d5abc.chunk.js.LICENSE.txt",
+    "static/css/main.b67d3add.chunk.css.map": "/static/css/main.b67d3add.chunk.css.map",
+    "static/js/2.aaa0e115.chunk.js.LICENSE.txt": "/static/js/2.aaa0e115.chunk.js.LICENSE.txt",
     "static/media/20210804_171159-removebg-preview (1).3bb207aa.png": "/static/media/20210804_171159-removebg-preview (1).3bb207aa.png",
     "static/media/Net.f930005f.svg": "/static/media/Net.f930005f.svg",
     "static/media/Syntax.80077ea4.png": "/static/media/Syntax.80077ea4.png",
+    "static/media/WhineNDine.3f874796.png": "/static/media/WhineNDine.3f874796.png",
+    "static/media/ZuriAcademy.1659a6ed.png": "/static/media/ZuriAcademy.1659a6ed.png",
+    "static/media/bakerLife.863d9b62.png": "/static/media/bakerLife.863d9b62.png",
+    "static/media/calmdown.b8feac82.png": "/static/media/calmdown.b8feac82.png",
     "static/media/debugger.d9fa466a.png": "/static/media/debugger.d9fa466a.png",
+    "static/media/kosiBen.e12b5c4b.png": "/static/media/kosiBen.e12b5c4b.png",
     "static/media/light-bulb.d9344c35.svg": "/static/media/light-bulb.d9344c35.svg",
+    "static/media/okeShop.d9bb568c.png": "/static/media/okeShop.d9bb568c.png",
     "static/media/petals.358e4c76.png": "/static/media/petals.358e4c76.png",
     "static/media/salizaarHome.502d178a.png": "/static/media/salizaarHome.502d178a.png",
-    "static/media/string.fc1a039c.png": "/static/media/string.fc1a039c.png"
+    "static/media/string.fc1a039c.png": "/static/media/string.fc1a039c.png",
+    "static/media/techTalent.2996e497.png": "/static/media/techTalent.2996e497.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9d6e382.js",
-    "static/js/2.3e9d5abc.chunk.js",
-    "static/css/main.61a6d815.chunk.css",
-    "static/js/main.e18bee78.chunk.js"
+    "static/js/2.aaa0e115.chunk.js",
+    "static/css/main.b67d3add.chunk.css",
+    "static/js/main.54b062b9.chunk.js"
   ]
 }
