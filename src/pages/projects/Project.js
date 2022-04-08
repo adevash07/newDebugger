@@ -8,6 +8,7 @@ import {
   Zuri,
   WhineNDine,
   Baker,
+  Kosiben,
 } from "../../assets";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import "./projects.scss";
@@ -97,7 +98,7 @@ export default function Project() {
           <div className="project__grid__list">
             <div className="project__grid__container">
               <div className="imgCon">
-                <img src={salizaar} alt="Salizaar the E-commmerce App" />
+                <img src={Kosiben} alt="Salizaar the E-commmerce App" />
               </div>
               <h2 className="header2">Lucid Profile</h2>
               <p>
