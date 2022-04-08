@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Debugger,
   salizaar,
   String,
   Petals,
